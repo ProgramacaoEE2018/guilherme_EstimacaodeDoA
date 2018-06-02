@@ -13,5 +13,7 @@ A base deste vem do projeto que tenho desenvolvido na iniciação científica, c
 ### Tutorial Tkinter
 O tutorial escolhido encontra-se no Youtube e refere-se à interface gráfica padrão do Python, o **Tkinter**. Link para acesso: https://www.youtube.com/watch?v=_lSNIrR1nZU&t=970s
 
+![Tutorial GUI](GUItutorial.png)
+
 ### Esboço GUI
 ![Esboço GUI](GUI.png)
