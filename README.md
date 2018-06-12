@@ -6,6 +6,7 @@ A base deste vem do projeto que tenho desenvolvido na iniciação científica, c
 ## Documentação
 
 ### Diagrama de Classes
+![Diagrama de Classes](Diagrama de classes.PNG)
 
 ### Fluxograma
 ![Fluxograma](Fluxograma.pdf)
