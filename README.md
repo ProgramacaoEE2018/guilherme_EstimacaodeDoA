@@ -28,3 +28,5 @@ Customize Installation -> Deixar somente C:\Python36-32 (para facilitar quando f
 Uma vez instalado, execute o prompt de comando como administrador (essa opção aparece ao se clicar com o botão direito do mause no app cmd). Em seguida execute os seguintes comandos para instalar Matplotlib e Scipy:
 cd.. -> cd.. -> cd Python36-32 -> cd Scripts -> dir/w -> pip install matplotlib -> pip install scipy
 
+FFmpeg: Faça o download no site https://ffmpeg.zeranoe.com/builds/ -> Descompacte o arquivo e modifique o nome para FFmpeg -> Copie a pasta e cole-a no disco local C -> Abra-a (no disco local), clique na pasta Bin e copie o atalho do endereço dessa pasta -> Na coluna esquerda, clique em This PC com o botão direito -> Propriedades -> Advanced System -> Settings -> Environment variables -> clique duas vezes em path -> new -> cola o endereço
+Feito isso, abra o prompt de comando e digite: ffmpeg -version; depois digite ffmpeg -h (para conferir se instalou).
