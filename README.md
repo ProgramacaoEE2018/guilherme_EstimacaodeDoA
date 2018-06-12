@@ -31,3 +31,7 @@ cd.. -> cd.. -> cd Python36-32 -> cd Scripts -> dir/w -> pip install matplotlib 
 
 FFmpeg: Faça o download no site https://ffmpeg.zeranoe.com/builds/ -> Descompacte o arquivo e modifique o nome para FFmpeg -> Copie a pasta e cole-a no disco local C -> Abra-a (no disco local), clique na pasta Bin e copie o atalho do endereço dessa pasta -> Na coluna esquerda, clique em This PC com o botão direito -> Propriedades -> Advanced System -> Settings -> Environment variables -> clique duas vezes em path -> new -> cola o endereço
 Feito isso, abra o prompt de comando e digite: ffmpeg -version; depois digite ffmpeg -h (para conferir se instalou).
+
+#### Fazendo o programa funcionar
+Primeiramente, deve-se colocar na mesma pasta o aqruivo do programa e os arquivos de áudio. Para fazê-lo rodar, deve-se clicar nele com o botão direito e clicar em editar com IDLE. Após isso, deve-se alterar os endereços das linhas 107 a 113, 239 a 245 e 527 a 533, para o endereço da pasta em que foi salvo o arquivo do programa (lembrando que as barras a serem usadas não são as invertidas). Feito isso, salvar as alterações, clicar em run e em seguida em run module.
+
