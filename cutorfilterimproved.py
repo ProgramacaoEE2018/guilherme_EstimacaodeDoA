@@ -50,7 +50,7 @@ def readwav(file):
 
 input ("Com a ajuda do cursor (observando do lado inferior direito da janela) observe o tempo (s) em que ocorre o disparo, em seguida feche a janela da plotagem.\n Pressione enter para iniciar\n")
 
-rate, sampwidth, data = readwav("f8_espacial7mic_xm8500_tiro1-mic1.wav")
+rate, sampwidth, data = readwav("mic1.wav")
 
 c = data;
 
@@ -83,13 +83,13 @@ if d==1:
         print ("Processando...");
 
         #corta
-        sound1 = AudioSegment.from_file("f8_espacial7mic_xm8500_tiro1-mic1.wav")
-        sound2 = AudioSegment.from_file("f8_espacial7mic_xm8500_tiro1-mic2.wav")
-        sound3 = AudioSegment.from_file("f8_espacial7mic_xm8500_tiro1-mic3.wav")
-        sound4 = AudioSegment.from_file("f8_espacial7mic_xm8500_tiro1-mic4.wav")
-        sound5 = AudioSegment.from_file("f8_espacial7mic_xm8500_tiro1-mic5.wav")
-        sound6 = AudioSegment.from_file("f8_espacial7mic_xm8500_tiro1-mic6.wav")
-        sound7 = AudioSegment.from_file("f8_espacial7mic_xm8500_tiro1-mic7.wav")
+        sound1 = AudioSegment.from_file("mic1.wav")
+        sound2 = AudioSegment.from_file("mic2.wav")
+        sound3 = AudioSegment.from_file("mic3.wav")
+        sound4 = AudioSegment.from_file("mic4.wav")
+        sound5 = AudioSegment.from_file("mic5.wav")
+        sound6 = AudioSegment.from_file("mic6.wav")
+        sound7 = AudioSegment.from_file("mic7.wav")
 
         e1 = float(input("Insira o centro do corte em segundos:"));
         a1 = 1000*e1 - 250;
@@ -215,13 +215,13 @@ if d==1:
         print ("Processando...");
 
         #corta
-        sound1 = AudioSegment.from_file("f8_espacial7mic_xm8500_tiro1-mic1.wav")
-        sound2 = AudioSegment.from_file("f8_espacial7mic_xm8500_tiro1-mic2.wav")
-        sound3 = AudioSegment.from_file("f8_espacial7mic_xm8500_tiro1-mic3.wav")
-        sound4 = AudioSegment.from_file("f8_espacial7mic_xm8500_tiro1-mic4.wav")
-        sound5 = AudioSegment.from_file("f8_espacial7mic_xm8500_tiro1-mic5.wav")
-        sound6 = AudioSegment.from_file("f8_espacial7mic_xm8500_tiro1-mic6.wav")
-        sound7 = AudioSegment.from_file("f8_espacial7mic_xm8500_tiro1-mic7.wav")
+        sound1 = AudioSegment.from_file("mic1.wav")
+        sound2 = AudioSegment.from_file("mic2.wav")
+        sound3 = AudioSegment.from_file("mic3.wav")
+        sound4 = AudioSegment.from_file("mic4.wav")
+        sound5 = AudioSegment.from_file("mic5.wav")
+        sound6 = AudioSegment.from_file("mic6.wav")
+        sound7 = AudioSegment.from_file("mic7.wav")
 
         e1 = float(input("Insira o centro do corte em segundos:"));
         a1 = 1000*e1 - 250;
@@ -354,13 +354,13 @@ if d==1:
 elif d==2:
 
     print ("Processando...");
-    rate1, sampwidth1, data1 = readwav("f8_espacial7mic_xm8500_tiro1-mic1.wav")
-    rate2, sampwidth2, data2 = readwav("f8_espacial7mic_xm8500_tiro1-mic2.wav")
-    rate3, sampwidth3, data3 = readwav("f8_espacial7mic_xm8500_tiro1-mic3.wav")
-    rate4, sampwidth4, data4 = readwav("f8_espacial7mic_xm8500_tiro1-mic4.wav")
-    rate5, sampwidth5, data5 = readwav("f8_espacial7mic_xm8500_tiro1-mic5.wav")
-    rate6, sampwidth6, data6 = readwav("f8_espacial7mic_xm8500_tiro1-mic6.wav")
-    rate7, sampwidth7, data7 = readwav("f8_espacial7mic_xm8500_tiro1-mic7.wav")
+    rate1, sampwidth1, data1 = readwav("mic1.wav")
+    rate2, sampwidth2, data2 = readwav("mic2.wav")
+    rate3, sampwidth3, data3 = readwav("mic3.wav")
+    rate4, sampwidth4, data4 = readwav("mic4.wav")
+    rate5, sampwidth5, data5 = readwav("mic5.wav")
+    rate6, sampwidth6, data6 = readwav("mic6.wav")
+    rate7, sampwidth7, data7 = readwav("mic7.wav")
 
     #armazena os dados nos vetores
     c1 = data1;
@@ -503,13 +503,13 @@ elif d==2:
         print("Arguarde alguns instantes");
 
         #corta
-        sound1 = AudioSegment.from_file("f8_espacial7mic_xm8500_tiro1-mic1.wav")
-        sound2 = AudioSegment.from_file("f8_espacial7mic_xm8500_tiro1-mic2.wav")
-        sound3 = AudioSegment.from_file("f8_espacial7mic_xm8500_tiro1-mic3.wav")
-        sound4 = AudioSegment.from_file("f8_espacial7mic_xm8500_tiro1-mic4.wav")
-        sound5 = AudioSegment.from_file("f8_espacial7mic_xm8500_tiro1-mic5.wav")
-        sound6 = AudioSegment.from_file("f8_espacial7mic_xm8500_tiro1-mic6.wav")
-        sound7 = AudioSegment.from_file("f8_espacial7mic_xm8500_tiro1-mic7.wav")
+        sound1 = AudioSegment.from_file("mic1.wav")
+        sound2 = AudioSegment.from_file("mic2.wav")
+        sound3 = AudioSegment.from_file("mic3.wav")
+        sound4 = AudioSegment.from_file("mic4.wav")
+        sound5 = AudioSegment.from_file("mic5.wav")
+        sound6 = AudioSegment.from_file("mic6.wav")
+        sound7 = AudioSegment.from_file("mic7.wav")
 
         e1 = float(input("Insira o centro do corte em segundos:"));
         a1 = 1000*e1 - 250;
