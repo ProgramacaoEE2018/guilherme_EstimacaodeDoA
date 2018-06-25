@@ -35,5 +35,5 @@ Feito isso, abra o prompt de comando e digite: ffmpeg -version; depois digite ff
 #### Fazendo o programa funcionar
 Primeiramente, deve-se colocar na mesma pasta o aqruivo do programa e os arquivos de áudio (mic1 a mic 7). Para fazê-lo rodar, deve-se clicar nele com o botão direito e clicar em editar com IDLE. Após isso, deve-se alterar os endereços das linhas 107 a 113, 239 a 245 e 527 a 533, para o endereço da pasta em que foi salvo o arquivo do programa (lembrando que as barras a serem usadas não são as invertidas). Feito isso, salvar as alterações, clicar em run e em seguida em run module.
 
-![Vídeo do programa funcionando](WhatsApp Video 2018-06-12 at 03.23.09.mp4)
+![Vídeo do programa funcionando](https://github.com/ProgramacaoEE2018/guilherme_EstimacaodeDoA/blob/master/WhatsApp%20Video%202018-06-12%20at%2003.23.09.mp4)
 
