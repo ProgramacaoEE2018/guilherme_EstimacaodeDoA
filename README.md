@@ -6,7 +6,7 @@ A base deste vem do projeto que tenho desenvolvido na iniciação científica, c
 ## Documentação
 
 ### Diagrama de Classes
-![Diagrama de Classes](Diagrama de classes.PNG)
+![Diagrama de Classes](https://github.com/ProgramacaoEE2018/guilherme_EstimacaodeDoA/blob/master/Diagrama%20de%20classes.PNG)
 
 ### Fluxograma
 ![Fluxograma](Fluxograma.pdf)
