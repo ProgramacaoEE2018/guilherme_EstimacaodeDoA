@@ -9,7 +9,7 @@ A base deste vem do projeto que tenho desenvolvido na iniciação científica, c
 ![Diagrama de Classes](https://github.com/ProgramacaoEE2018/guilherme_EstimacaodeDoA/blob/master/Diagrama%20de%20classes.PNG)
 
 ### Fluxograma
-![Fluxograma](Fluxograma.pdf)
+![Fluxograma](https://github.com/ProgramacaoEE2018/guilherme_EstimacaodeDoA/blob/master/Fluxograma1.PNG)
 
 ### Tutorial Tkinter
 O tutorial escolhido encontra-se no Youtube e refere-se à interface gráfica padrão do Python, o **Tkinter**. Link para acesso: https://www.youtube.com/watch?v=_lSNIrR1nZU&t=970s
